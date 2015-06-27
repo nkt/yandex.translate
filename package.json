@@ -1,0 +1,19 @@
+{
+  "name": "yandex.translate",
+  "version": "1.0.0",
+  "description": "Yandex.Translate API for node.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkt/yandex.translate.git"
+  },
+  "author": "Nikita Gusakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkt/yandex.translate/issues"
+  },
+  "homepage": "https://nkt.github.io/yandex.translate",
+  "bin": {
+    "yandex-translate": "./cli.js"
+  }
+}
