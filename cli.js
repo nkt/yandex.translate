@@ -16,6 +16,7 @@ var translator = new YandexTranslator(KEY);
 var args = process.argv.slice(2);
 if (!args.length) {
   console.log('Usage: yandex-translate <text> [<lang>]');
+  process.exit(1);
 }
 
 var text = args[0];
