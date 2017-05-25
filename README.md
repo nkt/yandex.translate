@@ -12,8 +12,8 @@ var YandexTranslator = require('yandex.translate');
 
 var translator = new YandexTranslator(YOUR_API_KEY);
 
-var translator.translate('hello', 'ru').then(console.log); // привет
-var translator.detect('hello').then(console.log); // en
+translator.translate('hello', 'ru').then(console.log); // привет
+translator.detect('hello').then(console.log); // en
 ```
 
 ## CLI Usage
